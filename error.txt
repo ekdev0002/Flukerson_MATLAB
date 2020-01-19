@@ -1,0 +1,6 @@
+Error using matlab.internal.graph.MLDigraph/findedge
+Source node IDs must be positive integers not greater than
+the number of nodes in the graph (0).
+
+Error in digraph/findedge (line 70)
+        sOut = findedge(G.Underlying, s, t);
